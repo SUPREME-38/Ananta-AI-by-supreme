@@ -1,0 +1,8 @@
+{
+  "name": "ANANTA AI",
+  "description": "Intelligent assistant developed by Supreme Tech to help users with learning, gaming guidance, shopping recommendations, visual repair, and smart decision making.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

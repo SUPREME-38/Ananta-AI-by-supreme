@@ -1,0 +1,18 @@
+{
+  "rewrites": [
+    
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+
+    { "source": "/login/callback", "destination": "/login/callback" },
+    
+    
+    { "source": "/dashboard", "destination": "/dashboard" },
+    
+    
+    { "source": "/profile/:path*", "destination": "/profile/:path*" },
+    
+    
+    { "source": "/((?!robots\\.txt|sitemap\\.xml).*)", "destination": "/" }
+  ]
+}
